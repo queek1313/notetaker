@@ -16,9 +16,6 @@ module.exports = function (app) {
     app.post("/api/notes", function (req, res) {
 
         var note = req.body;
-
-        // var lastId = db[db.length - 1]["id"];
-        // var newId = lastId++;
         note["id"] = uuid();
         db.push(note);
 
