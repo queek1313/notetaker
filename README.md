@@ -12,4 +12,5 @@
 
   For users that need to keep track of information.  Notes taker.
 
+![gif of website](notetakerDemo.gif)
   
